@@ -1,5 +1,8 @@
 {
   "dependencies": {
+    "com.google.signin": "https://github.com/Thaina/google-signin-unity.git#newmigration",
+    "com.google.external-dependency-manager": "1.2.187",
+    "com.unity.nuget.newtonsoft-json": "3.2.1",
     "com.coplaydev.unity-mcp": "https://github.com/CoplayDev/unity-mcp.git?path=/MCPForUnity#main",
     "com.unity.ai.navigation": "2.0.11",
     "com.unity.collab-proxy": "2.11.3",
@@ -44,5 +47,14 @@
     "com.unity.modules.vr": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
     "com.unity.modules.xr": "1.0.0"
-  }
+  },
+  "scopedRegistries": [
+    {
+      "name": "package.openupm.com",
+      "url": "https://package.openupm.com",
+      "scopes": [
+        "com.google.external-dependency-manager"
+      ]
+    }
+  ]
 }

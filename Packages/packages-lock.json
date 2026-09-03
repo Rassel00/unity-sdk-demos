@@ -17,6 +17,23 @@
       },
       "hash": "30d22075093d1d35dfb0091c1c7550e9ad948577"
     },
+    "com.google.external-dependency-manager": {
+      "version": "1.2.187",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://package.openupm.com"
+    },
+    "com.google.signin": {
+      "version": "https://github.com/Thaina/google-signin-unity.git#newmigration",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.nuget.newtonsoft-json": "3.2.1",
+        "com.google.external-dependency-manager": "1.2.187"
+      },
+      "hash": "d5ab541bfaddfd5396cbbd489abc24a25a871b2c"
+    },
     "com.unity.ai.navigation": {
       "version": "2.0.11",
       "depth": 0,
@@ -113,7 +130,7 @@
     },
     "com.unity.nuget.newtonsoft-json": {
       "version": "3.2.1",
-      "depth": 1,
+      "depth": 0,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"

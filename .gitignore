@@ -6,6 +6,10 @@
 # See: https://github.com/github/gitignore/tree/main/Global
 #
 .utmp/
+
+# Google OAuth client secret / 민감 파일 (커밋 금지)
+secret/
+
 /[Ll]ibrary/
 /[Tt]emp/
 /[Oo]bj/
